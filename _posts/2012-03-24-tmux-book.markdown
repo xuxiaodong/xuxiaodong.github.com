@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 评《tmux\: Productive Mouse-Free Development》
+title: 评《tmux：Productive Mouse-Free Development》
 date: 2012-03-24 19:11
 ---
 
