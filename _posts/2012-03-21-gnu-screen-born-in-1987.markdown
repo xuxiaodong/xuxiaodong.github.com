@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GNU Screen: 生于 1987
+title: GNU Screen：生于 1987
 date: 2012-03-21 23:26
 ---
 

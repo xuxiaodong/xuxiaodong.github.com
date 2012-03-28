@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Map of CPAN: CPAN 地图
+title: Map of CPAN：CPAN 地图
 date: 2012-03-25 22:03
 ---
 

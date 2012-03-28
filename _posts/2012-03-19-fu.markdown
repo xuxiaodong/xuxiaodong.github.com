@@ -1,6 +1,6 @@
 ---
 layout: post
-title: fu: 从命令行访问 Commandlinefu.com
+title: fu：从命令行访问 Commandlinefu.com
 date: 2012-03-19 22:29
 ---
 
