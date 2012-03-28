@@ -1,0 +1,44 @@
+---
+layout: post
+title: fu: 从命令行访问 Commandlinefu.com
+date: 2012-03-19 22:29
+---
+
+[fu][f] 允许你直接在命令行下与 [Commandlinefu.com][c] 进行交互，对 CLI
+控来说相当方便。<!--more-->
+
+### 安装
+
+要安装 fu，只需打开 Linux 终端，并键入如下指令:
+
+    $ git clone git://github.com/samirahmed/fu.git
+    $ cd fu
+    # make install
+
+### 用法
+
+fu 的用法很简单，在 `fu` 命令后面接要查询的关键字即可，例如:
+
+    $ fu ssh
+
+这将查询与 ssh 有关的 Command-line gem，其输出为：
+
+    1      #  Copy ssh keys to user@host to enable password-less ssh logins.
+           ssh-copy-id user@host
+    
+    2      #  start a tunnel from some machine's port 80 to your local post 2001
+           ssh -N -L2001:localhost:80 somemachine
+    
+    3      #  output your microphone to a remote computer's speaker
+           dd if=/dev/dsp | ssh -c arcfour -C username@host dd of=/dev/dsp
+    
+           4768ms total:25
+
+fu 默认只显示 3 条记录，可以通过 `-n` 或者 `-a` 选项指定想要显示的查询结果条
+数或全部显示。
+
+此外，fu 还提供 `-o` 和 `-c` 选项用于直接在浏览器中打开原页面及将命令行复制到
+剪贴板。注意后者需要 `xclip`。
+
+[f]: http://samirahmed.github.com/fu/
+[c]: http://www.commandlinefu.com

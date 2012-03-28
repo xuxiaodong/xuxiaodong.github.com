@@ -1,0 +1,22 @@
+---
+layout: post
+title: 你可以从 Perl 5.16 期待什么
+date: 2012-03-26 23:15
+---
+
+Perl 5 目前的发布方针是每年推出一个主要版本升级，譬如去年是 5.14，那么今年就
+是 5.16。<!--more--> 
+
+从 Perl 5.16 中，你至少可以期待以下[新特性及改进][1]：
+
++ **核心扩展性增强。**现在几乎不用动到 Perl 5 核心的 C
+  代码便可对其进行语法扩展。同时更易实现新特性原型。
++ **`__SUB__` 标记。**该标记将返回当前子例程的引用。
++ **支持 Unicode 6.1 标准。**例如，用于 Unicode foldcase 操作的 `fc` 操作符及
+  `\F` 转义序列。
++ **改善核心文档。**新增了[面向对象编程教程][2]，并对[面向对象引用文档][3]进
+  行了重写。
+
+[1]: http://lwn.net/SubscriberLink/487216/8491ce8b050bfd59/
+[2]: http://search.cpan.org/~abigail/perl-5.15.9/pod/perlootut.pod
+[3]: http://search.cpan.org/~corion/perl-5.15.8/pod/perlobj.pod

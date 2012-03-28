@@ -1,0 +1,5 @@
+markdown: rdiscount
+pygments: true
+baseurl: /
+permalink: ./:year/:month/:day/:title.html
+

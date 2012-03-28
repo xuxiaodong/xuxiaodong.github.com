@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   {% if page.title == 'Home' %}
+   <title>Xiaodong Xu</title>
+   {% else %}
+   <title>{{ page.title }}</title>
+   {% endif %}
+   <meta name="author" content="Xiaodong Xu" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <meta name="readability-verification" content="FDghYnL2pyp8QcftLDyz87buddPsabMFvLsVDSzv"/>
+   <link href="http://toy.linuxtoy.org/atom.xml" rel="alternate" title="Xiaodong Xu" type="application/rss+xml" />
+   <link href="https://plus.google.com/101096637428284023293" rel="publisher" />
+   <link rel="shortcut icon" href="/favicon.ico" />
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="{{ site.baseurl }}css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/base.css">
+   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/skeleton.css">
+   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/layout.css">
+
+</head>
+<body>
+
+<div class="container">
+  <div class="sixteen columns title">
+    <a href="{{ site.baseurl }}" title="Xiaodong Xu: Home">Xiaodong Xu</a>
+  </div>
+  
+  <div class="eleven columns">
+  {{ content }}
+  </div>
+  <div class="four columns offset-by-one">
+  <h1>Pages</h1>
+  <ul class="posts">
+    <li><a href="{{ site.baseurl }}pages/about.html">about</a></li>
+    <li><a href="{{ site.baseurl }}pages/archives.html">archives</a></li>
+    <li><a href="{{ site.baseurl }}pages/projects.html">projects</a></li>
+  </ul>
+  </div>
+
+  <div class="sixteen columns footer">
+    <div class="contact">
+      <p>
+        Copyright © Xiaodong Xu 2012
+      </p>
+    </div>
+    <div>
+      <p>
+      Follow Xiaodong: <a href="http://twitter.com/xuxiaodong">Twitter</a> / <a href="https://plus.google.com/101096637428284023293/" rel="author">Google+</a> / <a href="http://toy.linuxtoy.org/atom.xml">RSS</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
