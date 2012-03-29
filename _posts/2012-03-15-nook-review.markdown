@@ -2,6 +2,7 @@
 layout: post
 title: Nook 2 入手记
 date: 2012-03-15 22:34
+post-link: http://www.barnesandnoble.com/p/nook-simple-touch-barnes-noble/1102344735
 ---
 
 在 Kindle 3 不幸杯具的几天后 (也就是上周日)，我入手了 Nook 2。之所以选择 Nook

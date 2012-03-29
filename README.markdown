@@ -15,19 +15,13 @@ If you happen to find inspiration in my site, a link back to my web site http://
 
 ## Generate and run locally with automatic regeneration
 
-<pre><code>
-jekyll --server --auto
-</code></pre>
+    jekyll --server --auto
 
 ## Browse
 
-<pre><code>
-http://localhost:4000
-</code></pre>
+    http://localhost:4000
 
 ## New post
 
-<pre><code>
-rake new_post["Post Title"]
-</code></pre>
+    rake new_post["Post Title"]
 

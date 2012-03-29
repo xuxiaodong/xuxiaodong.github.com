@@ -2,6 +2,7 @@
 layout: post
 title: 给 alias 添加命令行参数
 date: 2012-03-20 23:10
+post-link: 
 ---
 
 昨天在定义 alias 时，有想到用命令行参数的需求。但通过查证文档的结果是，alias
