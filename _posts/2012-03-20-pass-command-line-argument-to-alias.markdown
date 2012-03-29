@@ -12,7 +12,7 @@ post-link:
 
     alias pn='new() { bundle exec rake new_post\["$1"\] }; new'
 
-这里，我通过定义 `new()` 函数来将 `$1` 参数传递给别名 pn。现在只需执行:
+这里，我通过定义 new() 函数来将 $1 参数传递给别名 pn。现在只需执行:
 
     pn 'post title'
 
