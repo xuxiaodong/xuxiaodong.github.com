@@ -5,8 +5,8 @@ date: 2012-03-30 21:23
 post-link: http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages
 ---
 
-无论是执行 uptime 命令，还是通过 top/htop
-进程查看器，在其输出信息中总是包含如下这行信息：
+无论是执行 uptime 命令，还是通过 top/htop 进程查看器，在其输出信息中总是会包
+含如下这行信息：
 
     load average: 0.08, 0.09, 0.21
 
