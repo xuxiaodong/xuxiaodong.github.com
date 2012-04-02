@@ -1,4 +1,4 @@
----
+--
 layout: post
 title: perldoc 使用精要
 date: 2012-04-02 23:04
@@ -8,11 +8,11 @@ post-link: http://perldoc.perl.org/perldoc.html
 Perl 的文档十分丰富，要想在浩如烟海的 Perl 资料中快速找到所需的信息，善用
 perldoc 命令就显得尤为重要。以下为 perldoc 使用精要：
 
-perldoc perltoc # Perl 文档目录，了解其概要
-perldoc -f # 查询 Perl 内置函数
-perldoc -v # 查询 Perl 预定义变量
-perldoc -q # 搜索 Perl FAQ
-perldoc -m # 查看 Perl 模块
-perldoc -l # 显示 Perl 模块路径
-perldoc -u # 查看 Pod 源文件
-perldoc -t # 无格式输出
+    perldoc perltoc # Perl 文档目录，了解其概要
+    perldoc -f # 查询 Perl 内置函数
+    perldoc -v # 查询 Perl 预定义变量
+    perldoc -q # 搜索 Perl FAQ
+    perldoc -m # 查看 Perl 模块
+    perldoc -l # 显示 Perl 模块路径
+    perldoc -u # 查看 Pod 源文件
+    perldoc -t # 无格式输出
