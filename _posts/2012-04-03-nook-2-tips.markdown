@@ -16,25 +16,22 @@ Nook 2 毕竟不是专为中文用户打造的电子阅读器，要想让 Nook 2
 
 **过程**
 
-1. 制作启动盘。将下载的 noogie.img 映像写入 MicroSD 卡：
+1. 制作启动盘。将下载的 noogie.img 映像写入 MicroSD 卡，sdn 为 microSD，需替
+   换成系统实际识别的信息。
 
         $ gunzip noogie.img.gz
         $ su
         # dd if=noogie.img of=/dev/sdn bs=1M
 
-  sdn 为 microSD，需替换成系统实际识别的信息。
-
 2. 引导 Nook 2。先关闭 Nook 2，并把做好的 MicroSD 卡插入 Nook 2，然后将 Nook 2
-连到电脑。开启 Nook 2，当屏幕显示“Rooted”字样时方可进行下一步操作。
+   连到电脑。开启 Nook 2，当屏幕显示“Rooted”字样时方可进行下一步操作。
 
-3. 更换词典及字体。
+3. 更换词典及字体。sdn 为 Nook 2 磁盘，覆盖前需做备份。
 
         # mkdir /mnt/nook
         # mount /dev/sdn5 /mnt/nook
         # cp basewords.db /mnt/nook/media/reference
         # cp Malabar.ttf /mnt/nook/fonts
         # umount /mnt/nook
-
-  sdn 为 Nook 2 磁盘，覆盖前需做备份。
 
 4. 善后。从电脑拔掉 Nook 2，并拆下 MicroSD 卡，重新开机即可。
