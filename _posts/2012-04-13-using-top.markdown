@@ -1,0 +1,26 @@
+---
+layout: post
+title: 高效使用 top
+date: 2012-04-13 21:32
+post-link: http://www.linuxforums.org/articles/using-top-more-efficiently_89.html
+---
+
+作为最常用的 Linux 系统资源监视工具之一的 top，你是否注意到了它的以下高效用法
+呢？
+
+1. **批处理模式。**top 默认以交互模式运行，但有时候在批处理模式（batch
+   mode）下使用会更方便，比如获取 top 的输出、用于脚本中等。
+
+       % top -b # 以批处理模式运行
+       % top -b -n 1 # 同上，但仅重复一次
+
+2. **监视指定进程。**在 -p 选项后直接指定需监视的进程 PID 即可，多个 PID
+   可通过逗号分隔。或使用 -u/-U 监视指定用户的进程。
+
+       % top -p pid # 监视单个进程
+       % top -p pid1,pid2 # 监视多个进程
+       % top -u uid # 监视 UID 为 uid 的进程
+       % top -u username # 通过 username 指定，仅匹配 effective 用户
+       % top -U username # 匹配任意用户，包括 real、effective、saved 及 filesystem
+
+3. **多视图。**按 A 可以切换到多窗口视图。
