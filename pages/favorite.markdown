@@ -9,7 +9,9 @@ title: Favorite
 
 + [DistroWatch][w]
 + [LWN][l]
++ [Linux][x]
 + [Phoronix][p]
++ [Slashdot][s]
 
 **OS**
 
@@ -30,5 +32,7 @@ title: Favorite
 [l]: http://lwn.net
 [m]: http://dwm.suckless.org
 [p]: http://phoronix.com
+[s]: http://slashdot.org
 [w]: http://distorwatch.com
+[x]: http://linux.com
 [z]: http://zsh.org
