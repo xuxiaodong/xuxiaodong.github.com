@@ -5,8 +5,7 @@ date: 2012-04-13 21:32
 post-link: http://www.linuxforums.org/articles/using-top-more-efficiently_89.html
 ---
 
-作为最常用的 Linux 系统资源监视工具之一的 top，你是否注意到了它的以下高效用法
-呢？
+作为最常用的 Linux 系统资源监视工具之一的 top，你是否注意到了它的以下用法呢？
 
 1. **批处理模式。**top 默认以交互模式运行，但有时候在批处理模式（batch
    mode）下使用会更方便，比如获取 top 的输出、用于脚本中等。
