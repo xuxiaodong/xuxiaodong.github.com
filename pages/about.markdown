@@ -11,13 +11,13 @@ Toy，原名徐小东，自 2005 年投归 GNU/Linux 门下，迄今已成为一
 
 我使用的自由软件:
 
-conky • dmenu • dwm • dzen • fcitx • feh • funtoo • git • hg • imagemagick • mplayer • pentadactyl • perl • rtorrent • ruby • tmux • urxvt • vim • zathura • zsh
+conky • dmenu • dwm • dzen • fcitx • feh • firefox • funtoo • git • hg • imagemagick • mplayer • pentadactyl • perl • rtorrent • ruby • tmux • urxvt • vim • zathura • zsh
 
 联系我:
 
-+ Gmail: xxdlhy [AT] gmail.com
-+ Twitter: [@xuxiaodong][t]
-+ Github: [@xuxiaodong][g]
++ Gmail:     xxdlhy [AT] gmail.com
++ Twitter:   [@xuxiaodong][t]
++ Github:    [@xuxiaodong][g]
 + Bitbucket: [@xuxiaodong][b]
 
 # Colophon
