@@ -16,7 +16,7 @@ post-link: http://stackoverflow.com/questions/1260748/how-do-i-remove-a-git-subm
       system "git rm --cached #{path}"
     
       files = [".git/config", ".gitmodules"]
-      files.each { |file| system "git config -f #{file} --remove-section submodule.#{path}"}
+      files.each { |file| system "git config -f #{file} --remove-section submodule.#{path}" }
     
       FileUtils.rmtree(path)
     end
