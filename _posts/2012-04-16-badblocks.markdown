@@ -15,8 +15,7 @@ badblocks 既可用来检测磁盘是否具有坏块（bad blocks），也能破
    该命令对 sda 进行检测，使用块大小为 4096 字节（-b），一次检测 98304
 块（-c）。其输出为：
 
-        hecking for bad blocks (read-only test):  27.68% done, 18:21 elapsed. (0/0/0
-errors)
+        Checking for bad blocks (read-only test):  27.68% done, 18:21 elapsed. (0/0/0 errors)
 
 2. 擦除数据。
 
