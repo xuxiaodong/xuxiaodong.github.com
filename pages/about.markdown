@@ -15,7 +15,7 @@ conky • dmenu • dwm • dzen • fcitx • feh • firefox • funtoo • gi
 
 联系我:
 
-+ Gmail:     xxdlhy [AT] gmail.com
++ Gmail:     echo eHhkbGh5QGdtYWlsLmNvbQo= | base64 -d
 + Twitter:   [@xuxiaodong][t]
 + Github:    [@xuxiaodong][g]
 + Bitbucket: [@xuxiaodong][b]
