@@ -10,9 +10,9 @@ post-link: https://github.com/xuxiaodong/vimenv
 
 **现有问题**
 
-细究起来，我的 Vim 环境配置目前存在下列问题：
+细究起来，我的 Vim 环境配置目前主要存在下面两个问题：
 
-1. 管理不便。这里所说管理主要针对 Vim Scripts 而言，包括插件、配色方
+1. 管理不便。这里所说的管理主要针对 Vim Scripts 而言，包括插件、配色方
    案、工具等等。它们的安装、删除、升级若是纯粹通过手工来完成，的确显得麻烦。
 
 2. 移植性差。我总是会在不同的电脑上使用 Vim。当将 Vim 配置从一台电脑
@@ -20,7 +20,7 @@ post-link: https://github.com/xuxiaodong/vimenv
 
 **Pathogen + Git submodules 来拯救**
 
-要解决上述的问题，其实只要 [Pathogen][p] 和 [Git submodules][g]
+要解决上述问题，其实只要 [Pathogen][p] 和 [Git submodules][g]
 就可以完美达成。其中，Pathogen 能对 Vim 的 runtimepath
 做到轻松管理。这样，Vim 的各式插件、工具可以分别归属于自己单独的位置。而 Git
 submodules 则使添加、升级 Vim 插件更加方便。这使我的 Vim
@@ -48,7 +48,7 @@ Vimenv 用法如下：
     " Pathogen
     runtime bundle/pathogen/autoload/pathogen.vim
     call pathogen#infect()
-    call pathogen#helptags()"
+    call pathogen#helptags()
 
 欢迎 fork :)
 

@@ -1,0 +1,10 @@
+---
+layout: post
+title: nrecent：只保留目录中最近的 N 个文件
+date: 2012-04-18 21:55
+post-link: http://blog.steve.org.uk/moreutils_makes_a_lot_of_sense_to_me.html
+---
+
+nrecent 让你保留目录中最近的 N 个文件，其余文件将被自动删除。例如：
+
+    % nrecent --keep 20 /tmp # 保留 tmp 中最近的 20 个文件
