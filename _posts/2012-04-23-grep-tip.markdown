@@ -1,0 +1,13 @@
+---
+layout: post
+title: 使用 grep 抓取匹配关键字附近的行
+date: 2012-04-23 22:31
+post-link: http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
+---
+
+有时我们会对 grep 匹配关键字附近的行感兴趣（这有点上下文的味道），使用
+-A、-B、以及 -C 选项可以满足我们的愿望。
+
+    % grep -A <n> 'keyword' file # 匹配 keyword 的下 n 行
+    % grep -B <n> 'keyword' file # 匹配 keyword 的上 n 行
+    % grep -C <n> 'keyword' file # 匹配 keyword 的上 n 行及下 n 行
