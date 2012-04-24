@@ -1,0 +1,15 @@
+---
+layout: post
+title: Vim 快速导航
+date: 2012-04-24 23:20
+post-link: http://www.thegeekstuff.com/2009/03/8-essential-vim-editor-navigation-fundamentals/
+---
+
+Vim 这个编辑器之神于我真是学无止境。随手记下几个 Vim 中的快速导航指令。
+
+    g_ # 与 ^ 相反，转到行尾的非空字符
+    N% # 转到文件的百分之 N 处
+    `" # 转到上次关闭文件时所处正常模式中的位置
+    `^ # 转到上次关闭文件时所处插入模式中的位置
+    *  # 前向搜索光标下的单词
+    #  # 后向搜索光标下的单词
