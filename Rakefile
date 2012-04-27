@@ -4,11 +4,11 @@ require "highline/import"
 require "stringex"
 
 ## -- Misc Configs -- ##
-source_dir      = "."    # source file directory
-posts_dir       = "_posts"    # directory for blog files
-new_post_ext    = "markdown"  # default new post file extension when using the new_post task
-new_page_ext    = "markdown"  # default new page file extension when using the new_page task
-server_port     = "4000"      # port for preview server eg. localhost:4000
+source_dir      = "."        # source file directory
+posts_dir       = "_posts"   # directory for blog files
+new_post_ext    = "markdown" # default new post file extension when using the new_post task
+new_page_ext    = "markdown" # default new page file extension when using the new_page task
+server_port     = "4000"     # port for preview server eg. localhost:4000
 
 #######################
 # Working with Jekyll #
