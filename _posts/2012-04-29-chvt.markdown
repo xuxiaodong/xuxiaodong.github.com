@@ -1,0 +1,11 @@
+---
+layout: post
+title: chvt：切换虚拟终端
+date: 2012-04-29 00:27
+post-link:
+---
+
+在 Linux 虚拟控制台下，除了可以通过 Alt + F# 或 Alt + 左/右方向键来切换 TTY
+外，也可以使用 chvt 命令，例如：
+
+    % chvt 2 # 切换到第 2 个虚拟终端
