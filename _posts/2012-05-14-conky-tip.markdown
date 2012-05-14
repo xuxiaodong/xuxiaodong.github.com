@@ -1,0 +1,13 @@
+---
+layout: post
+title: Conky Tip
+date: 2012-05-14 21:32
+post-link: http://conky.sourceforge.net/variables.html
+---
+
+Conky 的配置文件支持类似 if/else 的条件选择，如下片断的作用是当 wpa_supplicant
+运行时，显示 wlan0（即无线）的信息，否则显示 eth0（即有线）的信息。
+
+    ${if_running wpa_supplicant}${downspeedf wlan0}${else}${downspeedf eth0}${endif}k
+    ${if_running wpa_supplicant}${upspeedf wlan0}${else}${upspeedf eth0}${endif}k
+    ${if_running wpa_supplicant}${wireless_link_qual_perc wlan0}%${else}n/a${endif}
