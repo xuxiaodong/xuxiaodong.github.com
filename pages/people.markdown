@@ -7,6 +7,7 @@ title: People
 
 + [Amir Salihefendic][a]
 + [Brendan Gregg][b]
++ [Calmar][l]
 + [Chenyang][c]
 + [Mark Jason Dominus][m]
 + [Pádraig Brady][p]
@@ -14,6 +15,7 @@ title: People
 
 [a]: http://amix.dk
 [b]: http://www.brendangregg.com
+[l]: http://www.calmar.ws
 [c]: http://www.chenyang.me
 [m]: http://www.plover.com
 [p]: http://www.pixelbeat.org
