@@ -11,7 +11,9 @@ Toy，原名徐小东，自 2005 年投归 GNU/Linux 门下，迄今已成为一
 
 我使用的自由软件:
 
-cmus • conky • dmenu • dwb • dwm • dzen • fcitx • feh • funtoo • git • hg • imagemagick • irssi • mplayer • mutt • perl • rtorrent • ruby • tmux • urxvt • vim • zathura • zsh
+cmus • dmenu • dwb • monsterwm • fcitx • feh • funtoo • git • hg • imagemagick • irssi • mplayer • mutt • perl • rtorrent • ruby • tmux • urxvt • vim • zathura • zsh
+
+我的 [Github R&eacute;sum&eacute;][r]
 
 联系我:
 
@@ -33,3 +35,4 @@ cmus • conky • dmenu • dwb • dwm • dzen • fcitx • feh • funtoo �
 [g]: https://github.com/xuxiaodong
 [b]: https://bitbucket.org/xuxiaodong
 [y]: http://julianyap.com
+[r]: http://resume.github.com/?xuxiaodong
