@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Perl 程序员应该知道的事: 如何获得 Perl
+title: 'Perl 程序员应该知道的事: 如何获得 Perl'
 date: 2013-10-23 16:20
 post-link: http://perl101.org/how-to-get-perl.html
 ---
