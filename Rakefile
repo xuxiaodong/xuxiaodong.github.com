@@ -14,9 +14,9 @@ server_port     = "4000"     # port for preview server eg. localhost:4000
 # Working with Jekyll #
 #######################
 
-# usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post")
+# usage rake new[my-new-post] or rake new['my new post'] or rake new (defaults to "new-post")
 desc "Begin a new post in #{source_dir}/#{posts_dir}"
-task :new_post, :title do |t, args|
+task :new, :title do |t, args|
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
   mkdir_p "#{source_dir}/#{posts_dir}"
   args.with_defaults(:title => 'new-post')
@@ -34,7 +34,6 @@ task :new_post, :title do |t, args|
     post.puts "post-link:"
     post.puts "---"
     post.puts ""
-    #post.puts "bq. BLOCKQUOTE"
     post.puts ""
   end
   system "vim #{filename}"
@@ -54,5 +53,3 @@ task :preview do
 
   [jekyllPid].each { |pid| Process.wait(pid) }
 end
-
-
