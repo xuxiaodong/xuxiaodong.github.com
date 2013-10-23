@@ -40,6 +40,11 @@ Perl 支持许多平台，在 GNU/Linux 上基本都默认带有 Perl。但十�
 八九可能是旧版本。这种情况下，你可以通过所用 GNU/Linux 发行版
 的包管理器来更新 Perl。
 
+### Mac OS X
+
+Mac OS X 系统本身也默认安装了 Perl，不过可能仍然存在版本过旧的问题。为此，你可
+以自己安装更新版。
+
 ### Windows
 
 Windows 系统默认没有 Perl。你可以选择下列 Perl 发行之一：
@@ -53,16 +58,11 @@ Windows 系统默认没有 Perl。你可以选择下列 Perl 发行之一：
    包含 PPM 模块安装系统。如果你嫌麻烦，不想自己管理 Perl 安装，那么它也许适
    合你。
 
-### Mac OS X
-
-Mac OS X 系统本身也默认安装了 Perl，不过可能仍然存在版本过旧的问题。对此，你可
-以自己安装更新版。
-
 ### Perl 源代码
 
 Perl 源代码位于 <http://www.cpan.org/src/>。如果你打算自行编译安装 Perl，需要
 准备编译器、Shell、以及某些系统库。如果你缺少某些东东，Perl 的 `Configure`
-脚本将告诉你。通过以下指令可以从源代码编译 Perl：
+脚本将告诉你。通过以下指令可以从源代码编译并安装 Perl：
 
     $ wget http://www.cpan.org/src/5.0/perl-5.18.1.tar.gz
     $ tar -xzf perl-5.18.1.tar.gz
@@ -71,3 +71,70 @@ Perl 源代码位于 <http://www.cpan.org/src/>。如果你打算自行编译安
     $ make
     $ make test
     $ make install
+
+### Perlbrew 和 Plenv
+
+除了手动从源代码编译、安装 Perl 之外，你也可以选用时下比较流行的 Perl
+多版本管理工具 [Perlbrew][b] 或 [Plenv][e]。
+
+#### Perlbrew
+
+要安装 Perlbrew，你可以在终端中执行：
+
+    $ curl -L http://install.perlbrew.pl | bash
+
+然后，将下列内容添加到 `.bashrc` 或 `.zshrc` 文件中：
+
+    source ~/perl5/perlbrew/etc/bashrc
+
+接着执行：
+
+    $ source ~/.bashrc
+    $ source ~/.zshrc
+
+至此，你便能够使用 Perlbrew 来安装 Perl 的各种版本了。
+
+先列出可用的 Perl 版本：
+
+    $ perlbrew available
+
+安装具体的 Perl 版本：
+
+    $ perlbrew install 5.18.1
+
+待安装完毕，你可以通过以下指令来切换到刚安装的 Perl 版本：
+
+    $ perlbrew switch perl-5.18.1
+
+此外，Perlbrew 还有列出已安装的 Perl 版本、暂时关闭自身等功能，具体可以
+查看其帮助文档。
+
+#### Plenv
+
+Plenv 的功能与 Perlbrew 类似，其安装步骤为：
+
+    $ git clone git://github.com/tokuhirom/plenv.git ~/.plenv
+    $ echo 'export PATH="$HOME/.plenv/bin:$PATH"' >> ~/.bash_profile
+    $ echo 'eval "$(plenv init -)"' >> ~/.bash_profile
+    $ exec $SHELL -l
+    $ git clone git://github.com/tokuhirom/Perl-Build.git ~/.plenv/plugins/perl-build/
+
+注意：Zsh 用户需将上述指令中的 `.bash_profile` 替换为 `.zshrc`。另外，Ubuntu
+用户需将其替换成 `.profile`。
+
+现在，你可以使用 Plenv 来安装 Perl：
+
+    $ plenv install 5.18.1
+
+安装完成后需要执行 `plenv rehash` 重建 shim 可执行文件。
+
+Plenv 能够将某个 Perl 版本设置成局部、全局及 Shell 作用环境。其命令分别为：
+
+    $ plenv local 5.18.1  # 设置为局部作用环境，比全局作用环境具有更高的优先级
+    $ plenv global 5.18.1 # 设置成全局作用环境，将在所有 Shell 中使用
+    $ plenv shell 5.18.1  # 设置成 Shell 作用环境，具有最高的优先级
+
+关于 Plenv 的更多用法，可以通过 `plenv help` 查阅。
+
+[b]: http://perlbrew.pl
+[e]: https://github.com/tokuhirom/plenv
