@@ -1,4 +1,4 @@
 markdown: redcarpet
 redcarpet:
-    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough", "footnotes"]
+    extensions: ["fenced_code_blocks", "autolink", "tables"]
 permalink: ./:year/:month/:day/:title.html

@@ -19,7 +19,7 @@ Perl 当下的变化，我也会进行适当的改写。总之，希望这些内
 那么说明你的系统已经具有 Perl。反之，如果你看到的是类似 `command not found`
 这样的输出，那么你需要安装 Perl。
 
-```bash
+```
 $ perl -v
 
 This is perl 5, version 18, subversion 1 (v5.18.1) built for i486-linux-gnu-thread-multi-64int
@@ -65,7 +65,7 @@ Perl 源代码位于 <http://www.cpan.org/src/>。如果你打算自行编译安
 准备编译器、Shell、以及某些系统库。如果你缺少某些东东，Perl 的 `Configure`
 脚本将告诉你。通过以下指令可以从源代码编译并安装 Perl：
 
-```bash
+```
 $ wget http://www.cpan.org/src/5.0/perl-5.18.1.tar.gz
 $ tar -xzf perl-5.18.1.tar.gz
 $ cd perl-5.18.1
