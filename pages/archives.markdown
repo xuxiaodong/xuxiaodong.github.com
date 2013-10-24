@@ -14,11 +14,10 @@ title: Archives
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% if year != nyear %}
-    <br>
     <h2>{{ post.date | date: '%Y' }}</h2>
     {% endif %}
     {% endunless %}
 
-    <li>{{ post.date | date:"%B %e, %Y" }} &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; {{ post.date | date:"%B %e, %Y" }} </li>
     {% endfor %}
 </ul>
