@@ -1,3 +1,5 @@
-markdown: rdiscount
+markdown: redcarpet
+redcarpet:
+    extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 pygments: true
 permalink: ./:year/:month/:day/:title.html
