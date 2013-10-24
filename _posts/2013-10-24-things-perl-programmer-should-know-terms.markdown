@@ -25,14 +25,14 @@ Rubbish Lister”是在 Perl 这个名称创造之后才出现的。
 ### Larry
 
 Larry 指 Larry Wall，他是 Perl 的发明人及其领袖。当前，他虽然主要生活在 Perl 6
-岛上，但仍然对 Perl 5 作重要贡献。
+岛上，但仍然在对 Perl 5 作重要贡献。
 
 ### Randal
 
 Randal 指 Randal Schwartz，他是最大的 Perl 咨询及培训公司之一 Stonehenge
 的所有者。他也花时间在 IRC 及其他论坛上帮助 Perl 新手。
 
-Larry 和 Randal 也是 __Programming Perl__ 的主要作者。
+Larry 和 Randal 也是 *Programming Perl* 的主要作者。
 
 ### Damian
 
@@ -71,4 +71,4 @@ Perl 也被称为“脚本语言”，尤其是在 1990 年代当“Web 脚本�
 
 Perl、Python、PHP、Ruby 这类被归入次级名称“脚本语言”下的语言，应当称为
 “动态语言”更正确。学会认为 Perl 是一门编程语言将帮助你欣赏 Perl 的强大，
-并推动 Perl 应有的地位。
+并推动 Perl 得到应有的地位。
