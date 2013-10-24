@@ -9,35 +9,32 @@
         {% endif %}
         <link rel="alternate" type="application/rss+xml" title="Xiaodong Xu" href="http://toy.linuxtoy.org/atom.xml"></link>
         <link rel="shortcut icon" href="/favicon.ico"></link>
-        <!-- Syntax Highlighting CSS -->
+        <!-- syntax highlighting css -->
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/syntax.css">
-        <!-- Homepage CSS -->
+        <!-- homepage css -->
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/hgtip/aal.css">
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/hgtip/calluna.css">
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/hgtip/style.css">
     </head>
     <body>
-    <div id="main-wrap">
-        <div id="header">
-            <h1><a href="{{ site.baseurl }}" title="Xiaodong Xu">Xiaodong Xu</a></h1>
+        <div id="main-wrap">
+            <div id="header">
+                <h1><a href="{{ site.baseurl }}" title="Xiaodong Xu">Xiaodong Xu</a></h1>
+            </div>
+            <p id="navigation">
+                <a href="{{ site.baseurl }}pages/archives.html">archives</a> &mdash;
+                <a href="{{ site.baseurl }}pages/projects.html">projects</a> &mdash;
+                <a href="{{ site.baseurl }}pages/viml.html">viml</a> &mdash;
+                <a href="{{ site.baseurl }}pages/people.html">people</a> &mdash;
+                <a href="{{ site.baseurl }}pages/favorite.html">favorite</a> &mdash;
+                <a href="{{ site.baseurl }}pages/about.html">about</a>
+            </p>
+            <div id="content">
+                {{ content }}
+            </div>
+            <div id="footer">
+                follow me: <a href="https://twitter.com/xuxiaodong">twitter</a> / <a href="https://plus.google.com/101096637428284023293/" rel="author">google+</a> / <a href="http://toy.linuxtoy.org/atom.xml">rss</a>
+            </div>
         </div>
-
-        <p id="navigation">
-            <a href="{{ site.baseurl }}pages/archives.html">archives</a> &mdash;
-            <a href="{{ site.baseurl }}pages/projects.html">projects</a> &mdash;
-            <a href="{{ site.baseurl }}pages/viml.html">viml</a> &mdash;
-            <a href="{{ site.baseurl }}pages/people.html">people</a> &mdash;
-            <a href="{{ site.baseurl }}pages/favorite.html">favorite</a> &mdash;
-            <a href="{{ site.baseurl }}pages/about.html">about</a>
-        </p>
-
-        <div id="content">
-            {{ content }}
-        </div>
-
-        <div id="footer">
-            Follow Me: <a href="https://twitter.com/xuxiaodong">Twitter</a> / <a href="https://plus.google.com/101096637428284023293/" rel="author">Google+</a> / <a href="http://toy.linuxtoy.org/atom.xml">RSS</a>
-        </div>
-    </div>
     </body>
 </html>
