@@ -21,19 +21,23 @@ cmus • dmenu • dwb • monsterwm • fcitx • feh • funtoo • git • hg
 + Twitter:   [@xuxiaodong][t]
 + Github:    [@xuxiaodong][g]
 + Bitbucket: [@xuxiaodong][b]
++ Linkedin:  [@xuxiaodong][i]
++ Pinboard:  [@xuxiaodong][p]
 
 # Colophon
 
 这个 Blog 在 [Vim][v] 中书写，使用 [Jekyll][j] 生成，通过 [Github][g] 进行
-管理，样式来自 [Julian Yap][y]。
+管理，样式来自 [hg tip][h]。
 
-[l]: http://linuxtoy.org
-[j]: http://jekyllrb.com
-[g]: http://github.com
-[v]: http://vim.org
-[t]: https://twitter.com/xuxiaodong
-[g]: https://github.com/xuxiaodong
 [b]: https://bitbucket.org/xuxiaodong
-[y]: http://julianyap.com
-[r]: http://resume.github.com/?xuxiaodong
+[g]: https://github.com
+[g]: https://github.com/xuxiaodong
+[h]: http://hgtip.com
+[i]: http://www.linkedin.com/pub/xiaodong-xu/62/319/7
+[j]: http://jekyllrb.com
+[l]: http://linuxtoy.org
 [o]: http://osrc.dfm.io/xuxiaodong
+[p]: https://pinboard.in/u:xuxiaodong
+[r]: https://resume.github.com/?xuxiaodong
+[t]: https://twitter.com/xuxiaodong
+[v]: http://vim.org
