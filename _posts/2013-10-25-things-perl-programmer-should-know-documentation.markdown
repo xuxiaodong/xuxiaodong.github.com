@@ -46,7 +46,7 @@ post-link: http://perl101.org/documentation.html
 
 ### 利用 `perldoc modulename` 查阅 Perl 模块文档
 
-如果模块已经安装到你的系统中，那么你可以阅读该模块的文档。
+如果模块已经安装到你的系统中，那么你可以通过 `perldoc` 阅读该模块的文档。
 
     $ perldoc WWW::Mechanize
 
@@ -67,7 +67,7 @@ post-link: http://perl101.org/documentation.html
 ### 利用 `cpandoc` 查阅未安装 Perl 模块的文档
 
 *Pod::Cpandoc* 模块提供了 `cpandoc` 工具，利用该工具，即便模块没有安装到
-系统上，然而你仍然能够查阅该模块的文档。
+系统上，但你仍然能够查阅该模块的文档。
 
     $ cpandoc Web::Scraper
 
@@ -82,7 +82,7 @@ post-link: http://perl101.org/documentation.html
 
 ### 在线文档
 
-某些网站维护了 Perl 的 HTML 文档，最大的两个站点是：
+一些网站维护有 Perl 的 HTML 文档，最大的两个站点是：
 
 1. <http://perldoc.perl.org>：语言、函数及标准库
 2. <http://search.cpan.org>：模块

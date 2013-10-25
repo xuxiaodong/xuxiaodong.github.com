@@ -16,11 +16,11 @@ PERL 则是错误的称法。
 ### Perl 不是溯写词
 
 回溯词“Practical Extraction and Reporting Language”和“Pathologically Eclectic
-Rubbish Lister”是在 Perl 这个名称创造之后才出现的。
+Rubbish Lister”是在 Perl 这个名称被创造之后才出现的。
 
 ### There Is More Than One Way To Do It
 
-“办法不只一种”，这是 Perl 的座右铭，它拼为 **TMTOWTDI**，读作“Tim Toady”。
+“办法不只一种”，这是 Perl 的座右铭，它拼为 *TMTOWTDI*，读作“Tim Toady”。
 
 ### Larry
 
@@ -36,7 +36,7 @@ Larry 和 Randal 也是 *Programming Perl* 的主要作者。
 
 ### Damian
 
-Damian 指 Damian Conway，一个偏心的邪恶天才及 Perl 6 大师。Perl Best Practices
+Damian 指 Damian Conway，一个偏心的邪恶天才及 Perl 6 大师。*Perl Best Practices*
 一书是他的创新工作，激励人们改善代码写作质量。
 
 ### 懒惰、急躁和傲慢
