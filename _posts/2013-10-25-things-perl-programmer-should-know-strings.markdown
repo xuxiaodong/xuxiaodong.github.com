@@ -10,7 +10,7 @@ post-link: http://perl101.org/strings.html
 双引号（""）字符串能够内插其他变量。
 
 ```perl
-my $name = "Inigo Montoya";
+my $name     = "Inigo Montoya";
 my $relative = "father";
 
 print "My name is $name, you killed my $relative";
@@ -89,7 +89,7 @@ print substr( $x, -4 );     # gers
 不像其他语言，Perl 不会从数字了解字符串。它将做最好的 DTRT。
 
 ```perl
-my $phone = "312-588-2300";
+my $phone    = "312-588-2300";
 
 my $exchange = substr( $phone, 4, 3 ); # 588
 print sqrt( $exchange ); # 24.2487113059643
