@@ -264,7 +264,7 @@ my @new_array = grep { $_ * 9 } @array;
 
 ```perl
 my @array     = ( 0, 1, 2, 3, 4, 5 );
-my @new_array = grep { $_ *               = 9 } @array;
+my @new_array = grep { $_ *= 9 } @array;
 # @array      = ( 0, 9, 18, 27, 36, 45 );
 # @new_array  = ( 9, 18, 27, 36, 45 );
 ```
