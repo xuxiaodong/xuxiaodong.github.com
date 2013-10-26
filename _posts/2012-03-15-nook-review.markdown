@@ -7,7 +7,7 @@ post-link: http://www.barnesandnoble.com/p/nook-simple-touch-barnes-noble/110234
 
 在 Kindle 3 不幸杯具的几天后 (也就是上周日)，我入手了 Nook 2。之所以选择 Nook
 2，一方面为了延续从 Kindle 3 养成的 1 年多的电子阅读习惯，另一方面也想对 E Ink
-设备的别样风景加以感受一番。<!-- more -->
+设备的别样风景加以感受一番。
 
 经过近一周的使用，我对 Nook 2 爱不释手。以下为个人比较喜欢的方面：
 

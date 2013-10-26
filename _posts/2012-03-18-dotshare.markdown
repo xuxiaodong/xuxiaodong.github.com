@@ -7,7 +7,7 @@ post-link: http://dotshare.it
 
 顾名思义，.share 是一个专注于让用户彼此分享配置文件的站点。初次见到
 .share，我便被其所吸引。显然，.share 的外观设计深深地打上了令人熟悉的 Linux
-命令行烙印。<!-- more --> 
+命令行烙印。
 
 内容上，.share 分门别类的汇总诸如
 awesome/dwm/i3/fluxbox/openbox、vim/emacs、screen/tmux、bash/zsh、conky、tint2
