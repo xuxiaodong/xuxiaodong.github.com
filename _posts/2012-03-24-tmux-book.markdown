@@ -7,7 +7,7 @@ post-link: http://pragprog.com/book/bhtmux/tmux
 
 仅花了不到一天的时间我便读完了这本关于 [tmux][1] 的书——
 《tmux: Productive Mouse-Free Development》。tmux 是我在 Linux 下每日使
-用的精巧程序之一，通过本书使我学到了一些以前不了解的 tmux 用法。<!--more-->
+用的精巧程序之一，通过本书使我学到了一些以前不了解的 tmux 用法。
 
 全书包括 6 章，外加一个附录。其中，3、4 章让我领略了 tmux
 十分强悍的一面。各章内容简述如下：
