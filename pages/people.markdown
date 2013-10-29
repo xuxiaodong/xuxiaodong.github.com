@@ -13,8 +13,9 @@ title: People
 + [Mark Jason Dominus][m]
 + [Pádraig Brady][p]
 + [Steve Losh][s]
-+ [莫言][n]
++ [Suraj N. Kurapati][k]
 + [Fayland][f]
++ [莫言][n]
 + [牛氓][u]
 
 [a]: http://amix.dk
@@ -22,6 +23,7 @@ title: People
 [f]: http://fayland.me
 [g]: http://gilesorr.com
 [i]: http://cinderwick.ca
+[k]: http://snk.tuxfamily.org/log/
 [l]: http://www.calmar.ws
 [m]: http://www.plover.com
 [n]: http://niubie.me
