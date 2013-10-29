@@ -6,7 +6,7 @@ post-link: http://samirahmed.github.com/fu/
 ---
 
 fu 允许你直接在命令行下与 [Commandlinefu.com][c] 进行交互，对 CLI
-控来说相当方便。<!--more-->
+控来说相当方便。
 
 要安装 fu，只需打开 Linux 终端，并键入如下指令:
 
