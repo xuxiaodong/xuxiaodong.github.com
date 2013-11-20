@@ -11,11 +11,17 @@ post-link: https://github.com/xuxiaodong/bin/blob/master/post2wp
 
 `post2wp` 目前仅支持发布新的 Post 及编辑旧的 Post。
 
-要发布新的 Post，可以执行：
+首先，准备 WordPress 的帐号信息，在 `~/.post2wprc` 中添加如下内容：
+
+    [post2wp]
+    username = <user>
+    password = <pass>
+
+之后，要发布新 Post 的话，可以执行：
 
     post2wp -t <title> -f <content>
 
-此外，也可以跟上 slug、catetory、status 等选项：
+这两个选项是必需的。此外，也可以跟上 slug、catetory、status 等选项：
 
     post2wp -t <title> -l <slug> -c <category> -f <content> -s <status>
 
