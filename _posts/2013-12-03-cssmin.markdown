@@ -1,0 +1,18 @@
+---
+layout: post
+title: 'cssmin: 压缩 CSS 文件'
+date: 2013-12-03 21:14
+post-link: https://github.com/xuxiaodong/bin/blob/master/cssmin
+---
+
+在 Linux 下没有找到合适的 CSS 压缩程序，于是使用 Perl 写了一个脚本 cssmin。
+cssmin 需要依赖 CSS Minifier 模块，在 Debian 上可用如下命令安装：
+
+    apt-get install libcss-minifier-xs-perl
+
+假如要压缩 style.css 文件，只需执行：
+
+    cssmin style.css style.min.css
+
+和大多数 CSS 压缩程序一样，cssmin 通过去除空白及注释来减少 CSS 文件的体积，
+从而加快下载及渲染时间。
