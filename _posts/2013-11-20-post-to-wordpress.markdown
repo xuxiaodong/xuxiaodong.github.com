@@ -14,6 +14,7 @@ post-link: https://github.com/xuxiaodong/bin/blob/master/post2wp
 首先，准备 WordPress 的帐号信息，在 `~/.post2wprc` 中添加如下内容：
 
     [post2wp]
+    url = https://linuxtoy.org/xmlrpc.php
     username = <user>
     password = <pass>
 

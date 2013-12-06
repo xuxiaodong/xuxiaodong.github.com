@@ -19,7 +19,7 @@ post-link: http://nmap.org/
     Nmap done: 1 IP address (1 host up) scanned in 3.88 seconds
 
 从 `STATE` 列可以看出该端口已被过滤掉，即有防火墙阻挡。知道了原因，便可用
-`iptable` 解决：
+`iptables` 解决：
 
     iptables -I INPUT -p tcp --dport 8888 -j ACCEPT
 
