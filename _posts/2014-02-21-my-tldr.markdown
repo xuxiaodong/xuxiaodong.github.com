@@ -1,0 +1,43 @@
+---
+layout: post
+title: 使用 Perl 实现 tldr
+date: 2014-02-21 12:48
+post-link: https://linuxtoy.org/archives/tldr.html
+---
+
+Romain Prieto 的 [tldr][t] 想法是好，但其依赖的一堆 Node
+可能会让某些朋友不高兴。当是练手，我用 Perl 实现了自己的
+[tldr][l]。
+
+使用方法如下：
+
+    % mkdir ~/tldr
+    % cd !$
+    % git clone https://github.com/rprieto/tldr.git
+    % wget https://github.com/xuxiaodong/bin/raw/master/tldr -O tldr.pl
+    % chmod +x tldr.pl
+    % ./tldr.pl tar
+
+输出为：
+
+    > Archiving utility
+    > Optional compression with gzip / bzip
+
+    - create an archive from files
+
+    `tar cf {{target.tar}} {{file1 file2 file3}}`
+
+    - create a gzipped archive
+
+    `tar cfz {{target.tar.gz}} {{file1 file2 file3}}`
+
+    - extract an archive in a target folder
+
+    `tar xf {{source.tar}} -C {{folder}}`
+
+    - extract a gzipped archive in the current directory
+
+    `tar xzf {{source.tar.gz}}`
+
+[t]: https://github.com/rprieto/tldr
+[l]: https://github.com/xuxiaodong/bin/blob/master/tldr
