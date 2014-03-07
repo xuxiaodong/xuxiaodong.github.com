@@ -48,7 +48,7 @@ post-link:
 最后，通过 `resize2fs /dev/toy/root` 将文件系统也进行扩容。
 我的 root 分区的文件系统为 ext4，需要注意的是，目前的 Linux
 内核可能对某些文件系统不支持这种 on-line 的调整方式。所以在动手
-前先做好功课就显示很重要了。
+前先做好功课就显得很重要了。
 
     resize2fs 1.42.9 (28-Dec-2013)
     Filesystem at /dev/toy/root is mounted on /; on-line resizing required
