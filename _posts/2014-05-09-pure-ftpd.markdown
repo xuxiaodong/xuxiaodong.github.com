@@ -1,0 +1,28 @@
+---
+layout: post
+title: 使用 Pure-FTPd 架设 FTP 服务
+date: 2014-05-09 11:34
+post-link: http://www.pureftpd.org/project/pure-ftpd
+---
+
+最近需要与同事交换一些数据文件，于是考虑架设一个 FTP 
+服务。这里，我使用 Pure-FTPd 来加以实现。
+
+**安装**
+
+在 Debian 中，执行：
+
+    apt-get install pure-ftpd
+
+**允许匿名用户访问**
+
+编辑 `/etc/pure-ftpd/conf/NoAnonymous` 将其中的 yes 
+改为 no。
+
+添加一个名为 ftp 的用户：
+
+    adduser ftp
+
+再重启服务：
+
+    service pure-ftpd restart
